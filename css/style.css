@@ -1,0 +1,89 @@
+body{
+  background-size:cover;
+		font-family: sans-serif;
+		margin: 0px;
+}
+
+#clouds{
+ height: 250px;
+ width: 250px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+ display: inline-block;
+
+}
+.weather{
+ font-family:"Damion";
+ font-size: 9em;
+}
+.white{
+ background-color: white;
+ margin-top: 100px;
+ border-radius: 20px;
+ height:100%;
+}
+
+@media (min-width: 768px) {
+ .body{
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+ }
+
+ .h1{
+  font-size: 50px;
+  font-weight: 700;
+ }
+ #clouds{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  left: 80px;
+  height: 250px;
+  width: 250px;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+  display: inline-block;
+
+ }
+
+}
+
+@media (min-width: 1200px) {
+ .h1{
+  font-size: 7em;
+  font-weight: 700;
+ }
+ #clouds{
+  left: 15%;
+  height: 400px;
+  width: 400px;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+  display: inline-block;
+ /*.body{
+  padding-top: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+ }
+ .white{
+   width: 100%;
+ }
+ h1,h3{
+  font-size: 7em;
+  font-weight: 700;
+ }
+ #clouds{
+  left: 10%;
+  height: 400px;
+  width: 400px;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+  display: inline-block;
+
+ }*/*/
+
+}
